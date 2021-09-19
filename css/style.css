@@ -1,0 +1,231 @@
+/*
+body {
+    background-color: aliceblue;
+}
+*/
+#gallery_shop {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#gallery_shop ul {
+/*    border: 1px solid blue;*/
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    
+}
+#gallery_shop .item_product{
+    width: 350px;
+    height: 475px;
+    float: left;
+/*    border: 1px solid red;*/
+    margin: 10px 10px 10px 10px;
+    list-style: none;
+}
+.photo_item_product {
+    height: 150px;
+}
+.photo_image {
+    width: 350px;
+}
+.product_items_details {
+    height: 50px;
+}
+
+.product_items_link {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin-left: 5px;
+}
+
+.price {
+    font-size: 20px;
+    margin-left: 5px;
+}
+.product_item_button {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.product_item_button_action {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.product_item_button_action:hover {
+    text-decoration: none;
+    color: gray;
+}
+.main_header {
+    background: #264653;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title_menu {
+    font-size: 25px;
+}
+
+.title_menu:hover {
+    color: #f29500;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    flex: 2 1 40rem;
+}
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+}
+
+#contenu_footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+.footer_services h3,
+.footer_contact h3,
+.footer_horraire h3,
+.footer_medias h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer_contact p {
+    padding: 5px 0;
+}
+
+.liste_services,
+.liste_horraire,
+.liste_media {
+    list-style-type: none;
+}
+
+.liste_services li {
+    padding: 2px 0;
+}
+
+.liste_services a {
+    text-decoration: none;
+    color: #333;
+}
+
+.liste_services a:hover {
+    color: rgb(3, 3, 3);
+}
+
+.span_service {
+    color: black;
+}
+
+.span_service:hover {
+    color: red;
+}
+
+.container_media {
+    text-align: left;
+}
+
+.container_media img {
+    align-items: center;
+    padding-right: 20px;
+}
+/*--------------Police d'écriture-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/*---------------------------Reset css-----------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    background: #e9c46a;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
