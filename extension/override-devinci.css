@@ -11,3 +11,26 @@ override {
 .override .row-fluid {
     background-color: black ;
 }
+
+.override .social-sidebar{
+    background-color: pink;
+}
+
+.override .menu{
+    background-color: purple;
+}
+
+.override .navigation-sidebar{
+    background-color: turquoise;
+}
+
+.override .user{
+    text-decoration: underline;
+    background-color: yellow;
+    font-size: 45px;
+    color: blue;
+}
+
+.override .social-box{
+    background-color: chocolate;
+}
