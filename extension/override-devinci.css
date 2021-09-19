@@ -12,7 +12,6 @@ override {
     display: none;
 }
 .override .row-fluid {
-<<<<<<< HEAD
     background-color: black ;
 }
 
@@ -31,13 +30,11 @@ override {
 .override .user{
     text-decoration: underline;
     background-color: yellow;
-    font-size: 45px;
+    font-size: 15px;
     color: blue;
 }
 
 .override .social-box{
     background-color: chocolate;
-=======
     background-color: #58355E ;
->>>>>>> 506ed944a2f07df78fef5c212322fa94aea5576b
 }
