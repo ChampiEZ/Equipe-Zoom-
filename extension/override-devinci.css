@@ -1,8 +1,13 @@
-override {    
+override {
     background-color: black ;
 }
 .override .page-title {
     color: white;
 }
 
-.override 
+.override .alert{
+    display: none;
+}
+.override .row-fluid {
+    background-color: black ;
+}
