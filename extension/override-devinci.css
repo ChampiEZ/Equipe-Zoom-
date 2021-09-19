@@ -1,5 +1,8 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
 override {
-    background-color: black ;
+    background-color: #D6FFB7 ;
 }
 .override .page-title {
     color: white;
@@ -9,5 +12,5 @@ override {
     display: none;
 }
 .override .row-fluid {
-    background-color: black ;
+    background-color: #58355E ;
 }
